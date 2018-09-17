@@ -48,6 +48,27 @@ client.on('message', msg => {
   if (msg.content === 'Cease To Exist') {
     msg.reply('do you want to be a Miller?');
   }
+  if (msg.content === 'kys') {
+    msg.reply('how about you shut your mouth.');
+  }
+  if (msg.content === 'why') {
+    msg.reply('because he said so.');
+  }
+  if (msg.content === 'hi') {
+    msg.reply('hi to you too!');
+  }
+  if (msg.content === 'hello') {
+    msg.reply('hello!');
+  }
+  if (msg.content === 'go away') {
+    msg.reply('where do you expect me to go?');
+  }
+  if (msg.content === 'meme') {
+    msg.reply('memes are good.');
+  }
+  if (msg.content === 'pls meme') {
+    msg.reply('please do not summon Dank Memer, what did that bot ever do to help you?');
+  }
 });
 
 client.login('NDkwNzU2NzI1OTU2MjgwMzIw.DoCeCA.L9v0f2wlhxqGx6wny0q7ltnnjY4');
