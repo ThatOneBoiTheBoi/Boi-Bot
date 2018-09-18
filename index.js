@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-@client.event
+client.event
 async def on_ready():
    await client.change_presence(game=discord.Game(name='Despacito.'))
    print('bot is ready.')
