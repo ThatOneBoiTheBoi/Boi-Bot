@@ -1,10 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-client.event
-async def on_ready():
-   await client.change_presence(game=discord.Game(name='Despacito.'))
-   print('bot is ready.')
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
